@@ -4,7 +4,7 @@ const Project = ({ title, descreption, image, url, year, animation }) => {
   return (
     <div className="row">
       <div
-        class="row align-items-center h-100 text-center text-lg-left"
+        class="row align-items-center h-100 text-center text-lg-left p-4"
         bis_skin_checked="1"
       >
         <div

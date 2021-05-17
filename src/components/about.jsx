@@ -8,13 +8,11 @@ class About extends React.Component {
       about_me: [
         {
           id: "first-p-about",
-          content: "Hi, I'm Nawal! I am a Full-Stack developer at casbahTech.",
-        },
-        {
-          id: "second-p-about",
+
           content:
-            "I'm specializes in JavaScript Technologies across the whole stack (Node.js, Express, React, Redux) with +3 years experience.",
+            " I am a Full-Stack developer specialized in JavaScript Technologies across the whole MERN stack (MongoDB, Express.js, React, Node.js, ) with +3 years of experience.",
         },
+
         {
           id: "third-p-about",
           content:
@@ -23,7 +21,20 @@ class About extends React.Component {
         {
           id: "fourth-p-about",
           content:
-            "I like to develop expertise in a number of areas over the course of my life and career. I'm always Looking for new challenges and open for exciting career opportunities.",
+            "I like to develop expertise in a number of areas over the course of my life and career.",
+        },
+        {
+          id: "second-p-about",
+          content: (
+            <span>
+              {`Currently, I work at `}
+              <a href="https://www.welcometothejungle.com/fr/companies/temtemone">
+                CasbahTech
+              </a>
+              . But I'm always Looking for new challenges and open to exciting
+              career opportunities.
+            </span>
+          ),
         },
         {
           id: "fifth-p-about",
@@ -32,7 +43,7 @@ class About extends React.Component {
         },
         {
           id: "sixth-p-about",
-          content: <a href="./cv.docx">Download here</a>,
+          content: <a href="./cv-nawal-kerkar.docx">Download here</a>,
         },
       ],
     };
@@ -56,9 +67,12 @@ class About extends React.Component {
       "REST",
       "JSON",
       "SASS",
+      "MongoDb",
+      "Java",
+      "ReactNative",
+      "Scrum",
     ];
-    var tc = Tagcloud(".contentTag", texts);
-    console.log(tc);
+    Tagcloud(".contentTag", texts);
   }
 
   render() {
