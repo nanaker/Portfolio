@@ -18,11 +18,11 @@ class About extends React.Component {
           content:
             "I enjoy designing & engineering efficient and responsive web applications. ",
         },
-        {
+        /*  {
           id: "fourth-p-about",
           content:
             "I like to develop expertise in a number of areas over the course of my life and career.",
-        },
+        }, */
         {
           id: "second-p-about",
           content: (
@@ -31,7 +31,7 @@ class About extends React.Component {
               <a href="https://www.welcometothejungle.com/fr/companies/temtemone">
                 CasbahTech
               </a>
-              . But I'm always Looking for new challenges and open to exciting
+              . But I'm always looking for new challenges and open to exciting
               career opportunities.
             </span>
           ),

@@ -3,6 +3,9 @@ import React from "react";
 //import stock
 import medeo from "../img/medeo.gif";
 import temtemone from "../img/temtemone.gif";
+import delivery from "../img/delivery.gif";
+import seha from "../img/seha.gif";
+import movies from "../img/movies.gif";
 import Project from "./Project";
 
 class Portfolio extends React.Component {
@@ -32,6 +35,26 @@ class Portfolio extends React.Component {
             image={temtemone}
             year="2020"
             url="https://www.temtem.one/"
+          />
+          <Project
+            descreption="Seha is a web application for online medical consultation service."
+            title="Seha"
+            image={seha}
+            year="2020"
+            url="http://seha.doctor/"
+          />
+          <Project
+            descreption="Delivery is a web platform for delivering and managing orders."
+            title="Delivery"
+            image={delivery}
+            year="2019"
+          />
+          <Project
+            descreption="A mobile application for latest updates of movies and theaters."
+            title="I- Watch"
+            image={movies}
+            year="2018"
+            source="https://github.com/nanaker/iWatch2"
           />
         </div>
       </section>
