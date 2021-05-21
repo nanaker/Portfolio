@@ -27,6 +27,11 @@ import Portfolio from "./components/portfolio.jsx";
 import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
 import Preloader from "./components/preloader";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-148182371-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 ReactDOM.render(
   <React.Fragment>
