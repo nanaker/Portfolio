@@ -1,11 +1,5 @@
 import React from "react";
 
-//import stock
-import medeo from "../img/medeo.gif";
-import temtemone from "../img/temtemone.gif";
-import delivery from "../img/delivery.gif";
-import seha from "../img/seha.gif";
-import movies from "../img/movies.gif";
 import Project from "./Project";
 
 class Portfolio extends React.Component {
@@ -25,36 +19,38 @@ class Portfolio extends React.Component {
             descreption="Medeo is a platform designed for sharing scientific content
         with health professionals."
             title="Medeo"
-            image={medeo}
+            image="https://i.postimg.cc/2877Ft5m/medeo.gif"
             year="2020"
             url="http://medeo-dz.com/"
           />
           <Project
             descreption="Temtem One is a mobile application offering several services, including: the purchase of products and services online (groceries, mobility, phone recharge, clothing, cosmetics, household appliances, flowers, etc.), credit transfer, etc."
             title="Temtem One"
-            image={temtemone}
+            image="https://i.postimg.cc/Qxtmq3FD/temtemone.gif"
             year="2020"
             url="https://www.temtem.one/"
           />
           <Project
             descreption="Seha is a web application for online medical consultation service."
             title="Seha"
-            image={seha}
+            image="https://i.postimg.cc/sxfcqFKp/seha.gif"
             year="2020"
             url="http://seha.doctor/"
+            mobile
           />
           <Project
             descreption="Delivery is a web platform for delivering and managing orders."
             title="Delivery"
-            image={delivery}
+            image="https://i.postimg.cc/TPrJP24V/delivery.gif"
             year="2019"
           />
           <Project
             descreption="A mobile application for latest updates of movies and theaters."
             title="I- Watch"
-            image={movies}
+            image="https://i.postimg.cc/85dGwvn7/ezgif-com-gif-maker.gif"
             year="2018"
             source="https://github.com/nanaker/iWatch2"
+            mobile
           />
         </div>
       </section>

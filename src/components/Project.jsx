@@ -8,6 +8,7 @@ const Project = ({
   year,
   animation,
   source,
+  mobile,
 }) => {
   const showLinks = () => {
     if (url)
@@ -44,7 +45,14 @@ const Project = ({
           bis_skin_checked="1"
         >
           <div className="work-img">
-            <img className="projectImage work-img" src={image} alt="project" />
+            <img
+              className={`${
+                mobile ? "projectImageMobile" : "projectImage "
+              } work-img loading`}
+              src={image}
+              alt="project"
+              loading="lazy"
+            />
           </div>
         </div>
         <div class="col-lg-5 mx-3 py-3" bis_skin_checked="1">

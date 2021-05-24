@@ -26,12 +26,11 @@ import About from "./components/about.jsx";
 import Portfolio from "./components/portfolio.jsx";
 import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
-import Preloader from "./components/preloader";
-import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-148182371-1"; // YOUR_OWN_TRACKING_ID
+//import Preloader from "./components/preloader";
+import ReactGA from "react-ga";
+const TRACKING_ID = "UA-148182371-1";
 ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
-
 
 ReactDOM.render(
   <React.Fragment>
@@ -41,7 +40,7 @@ ReactDOM.render(
     <Portfolio />
     <Contact />
     <BackToTop />
-    <Preloader />
+    {/* <Preloader /> */}
   </React.Fragment>,
   document.getElementById("root")
 );

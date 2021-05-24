@@ -1037,6 +1037,10 @@ BUTTON
   width: 100%;
   height: 100%;
 }
+.projectImageMobile {
+  width: 350px;
+  height: 100%;
+}
 
 #sixth-p-about a {
   color: #0078ff;
@@ -1045,4 +1049,9 @@ BUTTON
 #second-p-about a {
   color: #0078ff;
   font-weight: 500;
+}
+
+.loading {
+  background: transparent
+    url("https://i.postimg.cc/Wz5fNm4q/Spinner-1s-200px.png") center no-repeat;
 }
