@@ -16,6 +16,13 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <Project
+            descreption="Quoty is a website that provides more than five hundred thousand quotes in various subject."
+            title="Quoty"
+            image="https://i.postimg.cc/5NqSVWPW/ezgif-com-gif-maker.gif"
+            year="2021"
+            url="https://random-quotes-react.herokuapp.com/"
+          />
+          <Project
             descreption="Medeo is a platform designed for sharing scientific content
         with health professionals."
             title="Medeo"
